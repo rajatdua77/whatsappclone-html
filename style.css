@@ -1,0 +1,87 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+background: #1EBEA5;
+height: 190px;
+color: white;
+font-weight: bold;
+}
+.inline  *{
+    display: inline;
+}
+.inline svg{
+    margin-top:10px;
+    margin-right:5px;
+}
+p{
+    position:absolute;
+    margin-top:20px;
+}
+
+.container{
+    max-width: 900px;
+    margin:auto;
+}
+section{
+    height: 100vh;
+    background-color: #D8DBD5;
+}
+.card{
+    border:2px solid white;
+    background-color: #fff;
+    position: absolute;
+    width: 50%;
+    height: 700px;
+    box-shadow: 10px 10px #888888;
+    left:400px;
+    top:130px;
+    padding: 20px;
+    padding-left:50px;
+    padding-top:40px;
+}
+.float-left{
+    float: left;
+}
+.card .title{
+    font-size: 26px;
+    font-weight: 200;
+    color:grey;
+    position: relative;
+
+}
+.card .list{
+    position: relative;
+    margin-top:50px;
+}
+.card .list *{
+    margin-top:10px;
+    color: rgb(112, 107, 107);
+    
+}
+.qr-code{
+    float: left;
+    margin-left:50px;
+}
+.qr-code img{
+    height: 250px;
+}
+.card h6{
+    margin-top:50px;
+    font-size: 20px;
+    color: #1EBEA5;
+}
+.sign{
+    margin-left: 25px;
+    margin-top:20px;
+    color: grey;
+}
+.video{
+    justify-content: center;
+    margin-left:100px;
+    margin-top:100px; 
+    height: 250px;
+    position: relative;
+}
